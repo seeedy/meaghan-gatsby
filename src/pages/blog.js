@@ -1,7 +1,8 @@
 import React from 'react';
+import Layout from '../components/Layout';
 
 const BlogPage = () => {
-    return <div>Blog page</div>;
+    return <Layout>Blog page</Layout>;
 };
 
 export default BlogPage;
