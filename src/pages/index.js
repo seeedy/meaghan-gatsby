@@ -7,7 +7,7 @@ import '../styles.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const IndexPage = () => {
-    const props = useSpring({ number: 1000, from: { number: 0 } });
+    const props = useSpring({ string: 'developer', from: { string: '' } });
     return (
         <Layout>
             <h1>GAY</h1>
